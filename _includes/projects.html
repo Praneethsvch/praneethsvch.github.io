@@ -1,13 +1,55 @@
-<section>
-  <div class="project-container">
-    {% for project in site.data.settings.projects %}
-      <a href="{{ site.github.url }}/projects/{{ project.url }}">
-        <div class="project-unit" data-folder="{{ site.github.url }}/projects/{{ project.url }}" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.jpg)">
-          <div class="project-overlay">
-            <strong>{{ project.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
-          </div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .flex-container {
+                display: flex;
+                justify-content: space-around;
+                background-color: white;
+            }
+            
+            .flex-container > div {
+                background-color: white;
+                width: 800px;
+                height: 600px;
+                margin: 10px;
+                text-align: justify;
+                line-height: 25px;
+                font-size: 15px;
+            }
+            
+            div.project-container {
+              width: 400px;
+              height: 500px;
+            }
+            
+            div.project-unit {
+              width: 400px;
+              height: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div>
+                    <h2>FloodNet</h2>
+                    <p>At this USDOT funded project, being a core engineer has allowed me to design, develop and deploy a network of low-cost flood sensors acorss NYC. </p>
+              </div>
+            <div>
+                <div class="project-container">
+                    {% for project in site.data.settings.projects %}
+                    <a href="{{ site.github.url }}/projects/{{ project.url }}">
+                        <div class="project-unit" data-folder="{{ site.github.url }}/projects/{{ project.url }}" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.jpg)">
+                            <div class="project-overlay">
+                                <strong>{{ project.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
-      </a>
-    {% endfor %}
-  </div>
-</section>
+    </body>
+</html>
+
+
