@@ -4,36 +4,46 @@
         <style>
             .flex-container {
                 display: flex;
-                justify-content: space-around;
-                background-color: white;
+                justify-content: space-between;
             }
             
             .flex-container > div {
                 background-color: white;
-                width: 800px;
+                width: 1000px;
                 height: 600px;
-                margin: 10px;
+                margin: 5px;
                 text-align: justify;
                 line-height: 25px;
                 font-size: 15px;
             }
+
+            .flex-container .text-container {
+                width: 140%;
+            }
+
             
             div.project-container {
-              width: 400px;
-              height: 500px;
+              width: 365px;
+              height: 560px;
+              /*margin: 5px;*/
+              float: right;
             }
-            
-            div.project-unit {
-              width: 400px;
-              height: 500px;
+
+            div.text-container{
+                width: 800px;
             }
         </style>
     </head>
     <body>
         <div class="flex-container">
-            <div>
+            <div class="text-container">
                     <h2>FloodNet</h2>
-                    <p>At this USDOT funded project, being a core engineer has allowed me to design, develop and deploy a network of low-cost flood sensors acorss NYC. </p>
+                    <p>
+                        I am a core Engineer at <a href="https://www.floodnet.nyc">FloodNet</a>, a USDOT funded project. I design, develop and deploy a network of low-cost flood sensors acorss NYC. I played a key role in the sensor design and am responsible for firmware development. 
+                        <br/>
+                        <br/>
+                        FloodNet is a cooperative of communities, researchers, and New York City government agencies. Being involved in this project since the preliminary stages has enabled me to develop skills in research and development, collaboration, effective communication, and decision making. 
+                    </p>
               </div>
             <div>
                 <div class="project-container">
