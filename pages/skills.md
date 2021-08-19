@@ -7,8 +7,8 @@ permalink: /skills
 #### Embedded Systems
 - Hardware design and development
 - IoT remote sensing
-- Communication protocols and implementation - LoRa, LoRaWAN
-- Firmware development, maintanace and testing
+- Wireless communication protocols - LoRa, LoRaWAN
+- Firmware development and testing
 - Sensor technologies and development - Ultrasonic, LiDAR, Capacitive, Pressure, Temperature and Resistive
 
 #### Tools and Programming languages 
