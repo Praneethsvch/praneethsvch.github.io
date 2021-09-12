@@ -5,13 +5,13 @@ title: FloodNet
 
 ## FloodNet
 
-From prototyping in my bedroom with buckets during COVID to working as a core engineer collaborating with agencies, emergency response teams,  and  at FloodNet, below are some key contributions.
+From prototyping in my bedroom with buckets during the lockdown to working as a core engineer collaborating with agencies, emergency response teams,  and  researchers at FloodNet, below are some key contributions.
 
 # Initial prototyping and discovery
 
 Initial prototyping involved performance evaluation and analysis of different sensor technologies including - resistive, capacitive, pressure, ultrasonic, and LiDAR to identify efficient solution for measuring water depth levels.
 
- <img src="/projects/18646.jpeg" alt="18646" style="zoom:18%;" />
+ <img src="/projects/18646.jpeg" alt="18646" style="zoom:15%;" />
 
 Above is an automated flood simulator that I designed during the lockdown. An MCU simulates the flood by pumping water back and forth using pumps, while the different sensor modalities are logged and analyzed. Ultrasonic seemed to be the most reactive and accurate solution to measuring depth levels.
 
@@ -19,7 +19,7 @@ Above is an automated flood simulator that I designed during the lockdown. An MC
 
 <img src="/projects/lab-simulator.jpg" alt="lab-simulator" style="zoom:25%;" />
 
-After obtaining access to work in the lab during the opening phases, I was able to build a much cleaner (and better; my old one flooded my whole bedroom!) flood simulator.
+After obtaining access to work in the lab during the opening phases, I was able to build a much cleaner flood simulator (first one flooded my whole bedroom!).
 
 # LoRaWAN - LMIC battles
 
