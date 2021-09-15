@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+---
+layout: default 
+title: Projects
+permalink: /projects
+---
+
 <html>
     <head>
         <style>
@@ -69,5 +74,4 @@
         </div>
     </body>
 </html>
-
 
