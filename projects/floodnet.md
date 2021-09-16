@@ -42,6 +42,13 @@ The library used was IBM LMIC, a C based library which implements LoRaWAN-MAC in
 # Dealing with Noise
 
 
+# Floods captured during Henri and Ida
+
+
+
+<img src="/projects/henri_new_stacked_sensor_4.png" alt="henri_new_stacked_sensor_4" style="zoom:22%;" />
+
+<img src="/projects/ida_new_stacked_sensor_4.png" alt="ida_new_stacked_sensor_4" style="zoom:22%;" />
 
 # Mini version 
 
