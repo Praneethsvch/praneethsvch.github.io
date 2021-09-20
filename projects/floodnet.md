@@ -29,7 +29,7 @@ After choosing the sensor technology, the [hardware team](https://www.floodnet.n
 
 <img src="/projects/components.png" alt="lab-simulator" style="zoom:24%;" />
 
-The library used was IBM LMIC, a C based library which implements LoRaWAN-MAC in C. The examples provioded in the library were primitive and working of LoRaWAN technology requires hard real-time deadlines. After long summer battles with LMIC, I successfully developed stable firmware with ultra-low power consumption.
+The library used was IBM LMIC, a C based library which implements LoRaWAN-MAC in C. The examples provioded in the library were primitive and working of LoRaWAN technology requires hard real-time deadlines. After long summer battles with LMIC, I successfully developed a stable [firmware library](https://github.com/floodsense/floodsense_sensor) with ultra-low power consumption.
 
 # Back-end development
 
@@ -51,12 +51,7 @@ The library used was IBM LMIC, a C based library which implements LoRaWAN-MAC in
 
 <img src="/projects/Image from iOS (1).jpg" alt="Image from iOS (1)" style="zoom:20%;" />
 
-
-
-
-
-# Dealing with Noise
-
+# Overcoming Noise issues
 
 
 
