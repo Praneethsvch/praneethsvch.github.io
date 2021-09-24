@@ -5,7 +5,21 @@ title: FloodNet
 
 ## FloodNet
 
-From prototyping in my bedroom during the lockdown to working as a core engineer, below are contributions to the entire sensor development cycle at FloodNet.
+Remnants of Hurricanes Ida and Henri caused torrential rain and flash flooding across New York City this summer, highlighting the city’s urgent need for more resilient infrastructure.
+
+Here below is the floods captured by the FloodNet sensors during Henri and Ida in real-time:
+
+#### *Henri:*
+
+ <img src="/projects/stacked_sensor_9.png" alt="a" style="zoom:25%;" />
+
+After the Henri and Ida there is a growing interest from various agencies including [DEP](https://www1.nyc.gov/site/dep/index.page), [NOAA](https://www.noaa.gov/), [NWS](https://www.weather.gov/) and [DOT](https://www1.nyc.gov/html/dot/html/home/home.shtml) in real-time flood monitoring and alerting. According to sources from [NYCEM](https://www1.nyc.gov/site/em/index.page), flood notifications from FloodNet were received ~1hr before the first emergency alerts were reported about people stuck in vehicles at the Carroll and 4th location. The red line represents the timeline of the NYC Office of Emergency Management (NYCEM) report. 
+
+#### *Ida:*
+
+<img src="/projects/ida_new_stacked_sensor_4.png" alt="ida_new_stacked_sensor_4" style="zoom:25%;" />
+
+Extreme weather events like these are expected to become more frequent as the effects of climate change become more clear and FloodNet helps target Emergency Response by monitoring floods in real time.
 
 # Initial experiments and discovery
 
@@ -13,7 +27,7 @@ From prototyping in my bedroom during the lockdown to working as a core engineer
 
 Initial prototyping involved evaluating the performance of different sensor technologies, including - resistive, capacitive, pressure, ultrasonic, and LiDAR, to identify an efficient solution for measuring water depth levels.
 
- <img src="/projects/18646.jpeg" alt="18646" style="zoom:15%;" />
+
 
 Above is an automated flood simulator that I designed during the lockdown. An MCU simulates the flood by pumping water back and forth using pumps, while the different sensor modalities record depth measurements. 
 
@@ -23,7 +37,7 @@ The key performance metrics tested for are - output drift, accuracy, repeatabili
 
 After obtaining lab access during the opening phases, I built a much cleaner flood simulator (the first one flooded my whole bedroom!).
 
-# LoRaWAN battles
+# Sensor Development - Hardware, Firmware, and LoRaWAN protocol implementation
 
 To incorporate LoRaWAN technology into the initial prototype, I collaborated with The Things Network developers and got my hands on feather m0 LoRa radios and programmed the initial prototype. 
 
@@ -49,8 +63,6 @@ After over a year of prototyping, discovery, and testing, a first version has be
 
 <img src="/projects/IMG_1852.jpg" alt="IMG_1852" style="zoom:15%;" />
 
-<img src="/projects/Image from iOS.jpg" alt="Image from iOS" style="zoom:20%;" />
-
 <img src="/projects/Image from iOS (1).jpg" alt="Image from iOS (1)" style="zoom:20%;" />
 
 #### *Locations:*
@@ -61,19 +73,11 @@ After over a year of prototyping, discovery, and testing, a first version has be
 
 # Overcoming Noise issues
 
-Since the speed of sound is affected by temperature, humidity and other external factors, the Ultrasonic sensors are susceptible to the same factors. The noise observed in these sensors has the most correlation with the temperature. With a combination of statistical averaging and signal processing, the noise has been mitigated.
+Since the speed of sound is affected by temperature, humidity and other external factors, the Ultrasonic sensors are susceptible to the same factors. The noise observed in these sensors has the most correlation with the temperature. 
 
-# Floods captured during Henri and Ida
 
-Here are images of flood data captured during Henri and Ida in real-time.
 
-#### *Henri:*
-
-<img src="/projects/henri_new_stacked_sensor_4.png" alt="henri_new_stacked_sensor_4" style="zoom:25%;" />
-
-#### *Ida:*
-
-<img src="/projects/ida_new_stacked_sensor_4.png" alt="ida_new_stacked_sensor_4" style="zoom:25%;" />
+With a combination of statistical averaging and signal processing, this noise has been mitigated.
 
 # Latest version and upcoming deployments
 
@@ -81,11 +85,9 @@ Below is the latest version of the sensor, with custom PCB and more robust senso
 
 <img src="/projects/closeup.png" alt="Image from iOS (1)" style="zoom:40%;" />
 
+<img src="/projects/new-breakout.png" alt="Image from iOS (1)" style="zoom:40%;" />
+
 # QC/QAP procedures 
 
-I devised QC/QAP protocols for sensor build process and quality control and created a documentation website: [https://floodsense.github.io/](https://floodsense.github.io/)
-
-
-
-# Design for Manufacturing (DFM) and Growth of FloodNet
+I devised QC/QAP protocols for sensor build process and quality control. Here is a documentation website with more information: [https://floodsense.github.io/](https://floodsense.github.io/)
 
