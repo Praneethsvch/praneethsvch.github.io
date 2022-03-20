@@ -1,0 +1,15 @@
+# Build settings
+
+port: 4000
+markdown:  kramdown
+permalink: /:title
+plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+
+name: "Praneeth"
+bio:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://praneethsvch.github.io//" # the base hostname & protocol for your site, e.g. http://example.com
+description: "Portifolio Website"
+author:      ""
