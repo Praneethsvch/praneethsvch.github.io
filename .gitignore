@@ -4,4 +4,12 @@ _site
 .jekyll-metadata
 vendor
 .DS_Store
+*.gem
+.bundle
+.ruby-version
+.jekyll-cache
+.sass-cache
+_site
+Gemfile.lock
+node_modules
 projects/.DS_Store
