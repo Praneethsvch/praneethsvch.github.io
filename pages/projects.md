@@ -14,8 +14,8 @@ permalink: /projects
             
             .flex-container > div {
                 background-color: white;
-                width: 1000px;
-                height: 600px;
+                width: 500px;
+                height: 750px;
                 margin: 5px;
                 text-align: justify;
                 line-height: 25px;
@@ -24,15 +24,15 @@ permalink: /projects
             }
 
             .flex-container .text-container {
-                width: 140%;
+                width: 200%;
             }
 
             
             div.project-container {
-              width: 365px;
-              height: 560px;
-              /*margin: 5px;*/
-              float: right;
+              width: 400px;
+              height: 500px;
+              margin: 25px;
+              float: center;
             }
 
             div.text-container{
@@ -45,13 +45,13 @@ permalink: /projects
             <div class="text-container">
                     <h2>FloodNet</h2>
                     <p>
-                        In New York City, sea level rise and increase in the occurrence of high intensity rain storms have led to a dramatic increase in flood risk, particularly in low-lying and coastal neighborhoods. Access to real-time information on flooding can aid infrastructure and resiliency planning, emergency response, transportation, and flood management decisions.
+                        Flooding is one of the most dangerous and costly natural hazards, and has a large impact on infrastructure, mobility, public health, and safety. Following Hurricane Henri, on the night of Wednesday, September 1, 2021, Hurricane Ida reached New York City. For the first time in history, the National Weather Service (NWS) declared a flash flood emergency in New York City. It flooded streets, subways, and homes. Most tragically, Ida took the lives of 13 New Yorkers.
                         <br/>
                         <br/>
-                        However, very little data exist on the frequency and extent of urban surface flooding, and there is an unmet need for hyperlocal information on the presence and depth of street-level floodwater.
+                        Former Mayor, Bill de Blasio on September 27, 2021 released <a href="https://www1.nyc.gov/assets/orr/pdf/publications/WeatherReport.pdf">"The New Normal: Combatting Storm-Related Extreme Weather in New York City"</a>, a landmark report that provides New York City with a new blueprint to prepare for and respond to extreme weather. As an immediate enhancements to storm analysis & data initiatives, <a href="https://www.floodnet.nyc/">FloodNet</a>, a network of state-of-the-art flood sensors, has prospered into a partnership with the MOCR, Office of the CTO, DEP, NYCEM, DOT, and NWS, aiming to expand the City’s nascent flood sensor network to provide real-time depth data in high-risk locations.
                         <br/>
                         <br/>
-                        <a href="https://www.floodnet.nyc/">FloodNet</a> is a cooperative of communities, researchers, and New York City government agencies developing a platform to provide real-time, street-level flood information - including the presence, frequency, and severity of local surface flood events - to a range of stakeholders, including policy makers, government agencies, citizens, emergency response teams, community advocacy groups, and researchers.
+                        This sensing platform can be integrated into an early warning system throughout the city, alert communities on emergency preparedness and response, including real-time mitigation measures, identify areas that most urgently need post-storm assistance, validate existing flood models, and inform long-term stormwater resiliency planning. 
                         <br/>
                         <br/>
                         <i><u> <a href="https://praneethsvch.github.io/projects/floodnet">more about my work at FloodNet</a> </u></i>
@@ -61,6 +61,8 @@ permalink: /projects
             <div>
                 <div class="project-container">
                     {% for project in site.data.settings.projects %}
+                    <br/>
+                    <br/>
                     <a href="{{ site.github.url }}/projects/{{ project.url }}">
                         <div class="project-unit" data-folder="{{ site.github.url }}/projects/{{ project.url }}" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.jpeg)">
                             <div class="project-overlay">
