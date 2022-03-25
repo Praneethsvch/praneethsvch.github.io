@@ -7,7 +7,6 @@ permalink: /skills
 #### Embedded Systems
 
 - **Hardware development**
-	- Proof-of-Concept (POC) prototyping
 	- Low-power designs
 	- Sub-system designs
 	- Components and Chip selection
