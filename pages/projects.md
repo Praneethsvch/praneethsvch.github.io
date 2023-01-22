@@ -13,7 +13,7 @@ permalink: /projects
             }
             
             .flex-container > div {
-                background-color: white;
+                background-color: black;
                 width: 500px;
                 height: 750px;
                 margin: 5px;
