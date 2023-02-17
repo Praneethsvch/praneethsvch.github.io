@@ -13,3 +13,4 @@ _site
 Gemfile.lock
 node_modules
 projects/.DS_Store
+.DS_Store
